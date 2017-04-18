@@ -12,5 +12,5 @@ dist: lab3b.py lab3b
 
 test: lab3b.py
 	make dist
-	sh P3B_check.sh 040161840
+	bash P3B_check.sh 040161840
 
