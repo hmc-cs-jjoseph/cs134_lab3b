@@ -2,3 +2,23 @@ NAME: Jesse Joseph
 EMAIL: jjoseph@hmc.edu
 ID: 040161840
 
+About this submission:
+	- Turning in on Tuesday, 4/18 using one slip day
+	- Language - python (requires python3)
+
+Files:
+	- lab3b.py
+		- python program analyzing filesystem summary file
+	- lab3b
+		- sh script that runs the lab3b.py program
+		- usage: ./lab3b <filename>
+	- Makefile
+		- targets:
+			- default (nothing to compile, so this does nothing)
+			- dist (builds the distribution tarball)
+			- test (runs the sanity test script)
+			- clean (removes the tarball if it exists)
+	- README
+		- this file
+	- P3B_check.sh
+		- the sanity check, for running the make test target
